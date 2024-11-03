@@ -1,20 +1,16 @@
 import React from 'react';
-import styled from 'styled-components';
+import FeatureSection from './components/FeatureSection';
+import PricingPlans from './components/PricingPlans';
+import './style.css';
 
-const Container = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #f0f0f0;
-`;
-
-const App = () => {
+function App() {
   return (
-    <Container>
-      <h1>Welcome to Az1zi Botz</h1>
-    </Container>
+    <div className="container">
+      <header className="header">AutoChat</header>
+      <FeatureSection />
+      <PricingPlans />
+    </div>
   );
-};
+}
 
 export default App;
