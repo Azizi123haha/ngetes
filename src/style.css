@@ -1,0 +1,90 @@
+/* Basic reset and styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #101827;
+  color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Features Section */
+.features {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.features h2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.features p {
+  color: #d1d5db;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #cbd5e1;
+}
+
+/* Pricing Section */
+.pricing {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.pricing h2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.plan {
+  background-color: #334155;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.plan h3 {
+  color: #ffffff;
+}
+
+.plan p {
+  color: #94a3b8;
+}
+
+button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
